@@ -4,6 +4,8 @@
 
 - [Tools & Installation](#tools--installation)
 - [Test descriptions](#test-descriptions)
+- [Testing instructions](#test-descriptions)
+- [SauceLabs Output](#saucelabs-output)
 - [Timeline](#timeline)
 - [Future Work](#future-work)
 
@@ -83,6 +85,6 @@ Started working around 1.00 of 6th May and ended around 22.00 same day with all 
 
 ### Future work
 
-- Make it run thousands of times.
+- Make it run thousands of times
 - More robust testing scripts for dynamic websites
 - Visualizations and time complexity analysis using more robust tools
