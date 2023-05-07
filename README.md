@@ -18,7 +18,8 @@ Assuming you have Python, Chrome and pip installed already on the system. To ins
 
 ```pip install selenium```
 
-I have explored [SauceLabs](https://saucelabs.com/) for test visualizations.
+I have explored [SauceLabs](https://saucelabs.com/) for test visualizations. To use their service, you need to create an account and use the authorization keys provided by them.
+Note: `modules.py` file has commented-out code for the requirements to use SauceLabs. I wasn't able to check the full functionality of their tools. Therefore, the tests won't use SauceLabs when run. However, I have attached some results below for your reference.
 
 ### Test descriptions
 
@@ -52,9 +53,11 @@ I have explored [SauceLabs](https://saucelabs.com/) for test visualizations.
 
 ### Testing instructions
 
-You can straight away test by:
+After installing the dependencies, you can straight away the tests by:
 
 ```python test_<test_number>.py```
+
+Currently, each test has to be run individually.
 
 ### SauceLabs output
 
@@ -81,10 +84,12 @@ I was not able to try the whole functionality of this tool but these are a few s
 |Documentation|0.75 hrs|
 |Total Time|7.85 hrs|
 
-Started working around 1.00 of 6th May and ended around 22.00 same day with all the above tasks.
+Started working around 1.00 of 6th May and ended around 22.00 same day with intervals.
 
 ### Future work
 
+- Add stability testing
 - Make it run thousands of times
 - More robust testing scripts for dynamic websites
-- Visualizations and time complexity analysis using more robust tools
+- Each script to test all the features of each page/feature of the website
+- Use more robust tools to visualize the results of each aspect
